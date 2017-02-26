@@ -636,21 +636,7 @@ img.tp-slider-alternative-image	{
 .rev-btn.rev-hiddenicon:hover i			{   opacity: 1 !important; margin-left:10px !important; width:auto !important;}
 
 /* REV BUTTONS MEDIUM */
-.rev-btn.rev-medium,
-.rev-btn.rev-medium:visited				{	 line-height: 36px; font-size: 14px; padding: 10px 30px; }
 
-.rev-btn.rev-medium.rev-withicon i		{ 	font-size: 14px; top: 0px; }
-
-.rev-btn.rev-medium.rev-hiddenicon i	{ 	font-size: 14px; top: 0px; }
-
-
-/* REV BUTTONS SMALL */
-.rev-btn.rev-small,
-.rev-btn.rev-small:visited				{	line-height: 28px; font-size: 12px; padding: 7px 20px; }
-
-.rev-btn.rev-small.rev-withicon i		{	font-size: 12px; top: 0px; }
-
-.rev-btn.rev-small.rev-hiddenicon i		{ 	font-size: 12px; top: 0px; }
 
 
 /* ROUNDING OPTIONS */
