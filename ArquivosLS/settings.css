@@ -1179,48 +1179,6 @@ img.tp-slider-alternative-image	{
 ***********************************************/
 
 
-.tp-thumbs.navbar,
-.tp-bullets.navbar,
-.tp-tabs.navbar					{	border:none; min-height: 0; margin:0; border-radius: 0; -moz-border-radius:0; -webkit-border-radius:0;}
-
-.tp-tabs,
-.tp-thumbs,
-.tp-bullets						{	position:absolute; display:block; z-index:1000; top:0px; left:0px;}
-
-.tp-tab,
-.tp-thumb 						{	cursor: pointer; position:absolute;opacity:0.5;  box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
-
-.tp-arr-imgholder,
-.tp-videoposter,
-.tp-thumb-image,
-.tp-tab-image					{	background-position: center center; background-size:cover;width:100%;height:100%; display:block; position:absolute;top:0px;left:0px;}
-
-.tp-tab:hover,
-.tp-tab.selected,
-.tp-thumb:hover,
-.tp-thumb.selected				{	opacity:1;}
-
-.tp-tab-mask,
-.tp-thumb-mask 					{	box-sizing:border-box !important; -webkit-box-sizing:border-box !important; -moz-box-sizing:border-box !important}
-
-.tp-tabs,
-.tp-thumbs						{	box-sizing:content-box !important; -webkit-box-sizing:content-box !important; -moz-box-sizing: content-box !important}
-
-.tp-bullet 						{	width:15px;height:15px; position:absolute; background:#fff; background:rgba(255,255,255,0.3); cursor: pointer;}
-.tp-bullet.selected,
-.tp-bullet:hover				{	background:#fff;}
-
-.tp-bannertimer					{	background:#000; background:rgba(0,0,0,0.15); height:5px;}
-
-
-.tparrows						{	cursor:pointer; background:#000; background:rgba(0,0,0,0.5); width:40px;height:40px;position:absolute; display:block; z-index:1000; }
-.tparrows:hover 				{	background:#000;}
-.tparrows:before				{	font-family: "revicons"; font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
-.tparrows.tp-leftarrow:before	{	content: '\e824'; }
-.tparrows.tp-rightarrow:before	{	content: '\e825'; }
-
-
-
 /***************************
 	- KEN BURNS FIXES -
 ***************************/
