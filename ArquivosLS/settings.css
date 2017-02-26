@@ -904,27 +904,7 @@ img.tp-slider-alternative-image	{
 -	BASIC SETTINGS FOR THE BANNER	-
 ***********************************************/
 
- .tp-simpleresponsive img {
-	-moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-}
 
-.tp-caption img {
-	background: transparent;
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
-	zoom: 1;
-}
-
-
-
-/*  CAPTION SLIDELINK   **/
-.caption.slidelink a div,
-.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(../assets/coloredbg.png) repeat}
-.tp-caption.slidelink a span{	background:url(../assets/coloredbg.png) repeat}
-.tp-shape {	width:100%;height:100%;}
 
 
 
