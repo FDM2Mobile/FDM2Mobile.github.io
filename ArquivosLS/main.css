@@ -12241,7 +12241,14 @@ ul.photoSlider {
 .mobile-header-bar {
   display: none;
 }
-
+.menu-open.not-iOS {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
 /*Blur page*/
 .blur-page.show-sticky-mobile-header #main-slideshow,
 .blur-page.show-sticky-mobile-header .photo-scroller,
@@ -12331,35 +12338,7 @@ ul.photoSlider {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn {
-  position: fixed;
-  visibility: hidden;
-  top: 10px;
-  right: 10px;
-  opacity: 0;
-  width: 44px;
-  height: 44px;
-  margin: 0 !important;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-backface-visibility: hidden;
-}
-.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.floating-mobile-menu-icon .show-floating-icon .dt-mobile-menu-icon.floating-btn {
-  visibility: visible;
-  opacity: 1;
-}
-.dt-mobile-menu-icon.floating-btn .lines {
-  /*	margin: 0 0 0 11px;*/
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn .lines,
-.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn .lines:before,
-.floating-mobile-menu-icon .dt-mobile-menu-icon.floating-btn .lines:after {
-  background-color: #fff;
-}
+
 /*First switch mobile header layout*/
 /*Mobile menu*/
 .mobile-main-nav {
