@@ -1294,7 +1294,7 @@ blockquote,
 }
 .branding > a,
 .branding > img {
-  padding: 0px 30px 0px 30px;
+  padding: 15px 30px 15px 330px;
 }
 .transparent .masthead:not(.side-header):not(.mixed-header) .branding > a,
 .transparent .masthead:not(.side-header):not(.mixed-header) .branding > img {
