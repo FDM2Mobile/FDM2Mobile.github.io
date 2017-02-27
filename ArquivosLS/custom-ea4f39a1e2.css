@@ -994,7 +994,7 @@ blockquote,
   background-color: rgba(166,166,166,0.25);
 }
 .classic-header.bg-behind-menu .navigation:before {
-  background-color: rgba(166,166,166,0.25);
+  background-color: rgba(166,166,166,0.25);branding
 }
 .classic-header .branding .mini-widgets {
   padding: 0px 0px 0px 0px;
@@ -1293,9 +1293,7 @@ blockquote,
   line-height: 19px;
 }
 .branding > a,
-.branding > img {
-  padding: 0px 30px 0px 30px;
-}
+
 .transparent .masthead:not(.side-header):not(.mixed-header) .branding > a,
 .transparent .masthead:not(.side-header):not(.mixed-header) .branding > img {
   padding: 0px 30px 0px 30px;
