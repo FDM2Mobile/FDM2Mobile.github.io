@@ -12369,7 +12369,165 @@ ul.photoSlider {
 }
 /*First switch mobile header layout*/
 /*Mobile menu*/
-
+.mobile-main-nav {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -moz-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-flex: 10 1 auto;
+  -moz-flex: 10 1 auto;
+  -ms-flex: 10 1 auto;
+  flex: 10 1 auto;
+  padding-bottom: 30px;
+}
+.mobile-main-nav > li {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+.mobile-main-nav > li > a {
+  text-decoration: none;
+}
+.mobile-main-nav > li:before {
+  content: "";
+  position: absolute;
+  top: -0.5px;
+  height: 0;
+  border-top: solid 1px yellow;
+  width: 100%;
+  max-width: 100%;
+  /*margin-left: -20px;*/
+  left: 0;
+}
+.mobile-main-nav > li:first-child:before,
+.dt-mobile-header .mobile-main-nav .new-column {
+  display: none;
+}
+.mobile-main-nav > li > a {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 30px 10px 0;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+.mobile-main-nav .sub-nav li.hide-mega-title > a {
+  display: block;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+.mobile-main-nav > li.has-children > a:after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  width: 30px;
+  height: 30px;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.mobile-main-nav > li.has-children > a:after,
+.mobile-main-nav .next-level-button {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.mobile-main-nav > li.has-children.open-sub > a.act:after,
+.mobile-main-nav li.has-children.open-sub > .next-level-button {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.mobile-main-nav .menu-item a .fa {
+  padding-right: 6px;
+}
+.mobile-main-nav li > a .subtitle-text {
+  font-size: 10px;
+  line-height: 12px;
+  font-family: Arial, sans-serif;
+}
+.mobile-main-nav .sub-nav {
+  margin-left: 20px;
+}
+.header-side-right .mobile-main-nav .mega-full-width > .sub-nav,
+.header-side-right .mobile-main-nav .mega-auto-width > .sub-nav {
+  right: 0;
+}
+#page .mobile-main-nav .sub-nav li,
+#page .mobile-main-nav .dt-mega-menu.mega-auto-width .sub-nav .dt-mega-parent {
+  padding: 0;
+  width: 100%;
+}
+#page .mobile-main-nav .sub-nav {
+  width: 100%;
+}
+.mobile-main-nav .sub-nav .sub-nav {
+  left: 0;
+}
+.mobile-main-nav .sub-nav > li > a {
+  padding: 10px 30px 10px 0;
+  margin: 0;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-positive: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+}
+.mobile-main-nav .sub-nav > li > a:hover {
+  background: none !important;
+}
+.mobile-main-nav .sub-nav .next-level-button,
+.mobile-main-nav .sub-nav li.has-children a:after {
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  -ms-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  /*right: -30px;*/
+  /*margin-top: -15px;*/
+  top: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.mobile-main-nav.dt-parent-menu-clickable .sub-nav li.has-children a:after {
+  display: none;
+}
+.mobile-main-nav .sub-nav li.has-children > a:after,
+.mobile-main-nav .sub-nav .next-level-button {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.mobile-main-nav .sub-nav li.has-children.open-sub > a.act:after,
+.mobile-main-nav .sub-nav li.has-children.open-sub > .next-level-button {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 /* ====================== lines button ==================================================*/
 .lines-button,
 .dt-mobile-menu-icon {
