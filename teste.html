@@ -448,23 +448,7 @@ var dtLocal = {"themeUrl":"https:\/\/fdm2mobile.github.io\/wp-content\/themes\/d
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:description" content="Visit the post for more.">
-<script type="text/javascript">
-jQuery(function($) {
-	var $window = $(window),
-		$load = $("#load");
-	
-	$window.removeLoading = setTimeout(function() {
-		$load.addClass("loader-removed").fadeOut(500);
-	}, 500);
-	
-	$window.one("dt.removeLoading", function() {
-		if (!$load.hasClass("loader-removed")) {
-			clearTimeout($window.removeLoading);
-			$("#load").addClass("loader-removed").fadeOut(500);
-		}
-	});
-});
-</script>
+
 
 
 
